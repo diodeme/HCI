@@ -1,0 +1,99 @@
+2019-07-22 17:17:09 [INFO ] [restartedMain] c.t.d.d.HisApplication - Starting HisApplication on DESKTOP-463M0H4 with PID 17748 (D:\hisyl\HIS\target\classes started by huayu in D:\hisyl\HIS)
+2019-07-22 17:17:09 [INFO ] [restartedMain] c.t.d.d.HisApplication - The following profiles are active: dev
+2019-07-22 17:17:09 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-22 17:17:09 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-22 17:17:10 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @3354ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-07-22 17:17:11 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8080
+2019-07-22 17:17:11 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_202-b08
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 600000ms
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-07-22 17:17:11 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2565 ms
+2019-07-22 17:17:11 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@17f3d9ed{application,/,[file:///C:/Users/huayu/AppData/Local/Temp/jetty-docbase.7007093344665157291.8080/, jar:file:/D:/repository/maven3/com/thunisoft/artery/artery-component/6.0.45/artery-component-6.0.45.jar!/META-INF/resources],AVAILABLE}
+2019-07-22 17:17:13 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-07-22 17:17:13 [INFO ] [restartedMain] c.t.t.server.Server - Started @6252ms
+2019-07-22 17:17:14 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-07-22 17:17:14 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 9
+2019-07-22 17:17:14 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-07-22 17:17:14 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-07-22 17:17:15 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-07-22 17:17:15 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-22 17:17:15 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 17:17:16 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-07-22 17:17:16 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-22 17:17:16 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 17:17:16 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 17:17:16 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+2019-07-22 17:17:16 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@3d3d7fee{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-07-22 17:17:16 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: ''
+2019-07-22 17:17:16 [INFO ] [restartedMain] c.t.d.d.HisApplication - Started HisApplication in 7.948 seconds (JVM running for 8.9)
+2019-07-22 17:24:45 [INFO ] [restartedMain] c.t.d.d.HisApplication - Starting HisApplication on DESKTOP-463M0H4 with PID 11032 (D:\hisyl\HIS\target\classes started by huayu in D:\hisyl\HIS)
+2019-07-22 17:24:45 [INFO ] [restartedMain] c.t.d.d.HisApplication - The following profiles are active: dev
+2019-07-22 17:24:45 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-22 17:24:45 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-22 17:24:46 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-07-22 17:24:47 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @3432ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-07-22 17:24:47 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8080
+2019-07-22 17:24:47 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-07-22 17:24:47 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-07-22 17:24:47 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_202-b08
+2019-07-22 17:24:48 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-07-22 17:24:48 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-07-22 17:24:48 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 660000ms
+2019-07-22 17:24:48 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-07-22 17:24:48 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2656 ms
+2019-07-22 17:24:48 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@3f799ae6{application,/,[file:///C:/Users/huayu/AppData/Local/Temp/jetty-docbase.47963206457802998.8080/, jar:file:/D:/repository/maven3/com/thunisoft/artery/artery-component/6.0.45/artery-component-6.0.45.jar!/META-INF/resources],AVAILABLE}
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.t.t.server.Server - Started @6321ms
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 9
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-07-22 17:24:50 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-07-22 17:24:51 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-07-22 17:24:51 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-22 17:24:52 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 17:24:53 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-07-22 17:24:53 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-22 17:24:53 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 17:24:53 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 17:24:53 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 12 ms
+2019-07-22 17:24:53 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@5512957a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-07-22 17:24:53 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: ''
+2019-07-22 17:24:53 [INFO ] [restartedMain] c.t.d.d.HisApplication - Started HisApplication in 8.772 seconds (JVM running for 9.663)
+2019-07-22 17:30:12 [INFO ] [restartedMain] c.t.d.d.HisApplication - Starting HisApplication on DESKTOP-463M0H4 with PID 13616 (D:\hisyl\HIS\target\classes started by huayu in D:\hisyl\HIS)
+2019-07-22 17:30:12 [INFO ] [restartedMain] c.t.d.d.HisApplication - The following profiles are active: dev
+2019-07-22 17:30:12 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-22 17:30:12 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-22 17:30:13 [INFO ] [restartedMain] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2019-07-22 17:30:14 [INFO ] [restartedMain] c.t.tas.util.log - Logging initialized @3451ms to com.thunisoft.tas.util.log.Slf4jLog
+2019-07-22 17:30:15 [INFO ] [restartedMain] o.s.b.w.e.j.TasServletWebServerFactory - Server initialized with port: 8080
+2019-07-22 17:30:15 [WARN ] [restartedMain] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.c.TasWebServerFactoryCustomizer - 【友情提示】如果发现1099端口冲突，可以设置tas.jmx.enable=false关闭监听或者tas.jmx.port修改jmx端口号
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_202-b08
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.server.session - No SessionScavenger set, using defaults
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.server.session - node0 Scavenging every 600000ms
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2019-07-22 17:30:15 [INFO ] [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2553 ms
+2019-07-22 17:30:15 [INFO ] [restartedMain] c.t.t.s.h.ContextHandler - Started c.t.t.s.TasEmbeddedWebAppContext@763b2c10{application,/,[file:///C:/Users/huayu/AppData/Local/Temp/jetty-docbase.6203685574576246987.8080/, jar:file:/D:/repository/maven3/com/thunisoft/artery/artery-component/6.0.45/artery-component-6.0.45.jar!/META-INF/resources],AVAILABLE}
+2019-07-22 17:30:17 [INFO ] [restartedMain] c.t.t.j.ConnectorServer - JMX URL: service:jmx:rmi://localhost:1099/jndi/rmi://localhost:1099/jmxrmi
+2019-07-22 17:30:17 [INFO ] [restartedMain] c.t.t.server.Server - Started @6310ms
+2019-07-22 17:30:17 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2019-07-22 17:30:18 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 9
+2019-07-22 17:30:18 [INFO ] [restartedMain] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2019-07-22 17:30:18 [INFO ] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-07-22 17:30:18 [INFO ] [restartedMain] c.t.s.c.c.u.ConfigUtils - 未能加载当前路径下的props配置，采用默认配置
+2019-07-22 17:30:18 [INFO ] [restartedMain] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-22 17:30:19 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 17:30:19 [INFO ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-07-22 17:30:19 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-22 17:30:19 [INFO ] [restartedMain] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 17:30:19 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-22 17:30:19 [INFO ] [restartedMain] o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+2019-07-22 17:30:19 [INFO ] [restartedMain] c.t.t.s.AbstractConnector - Started ServerConnector@66615c4f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-07-22 17:30:19 [INFO ] [restartedMain] c.t.t.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: ''
+2019-07-22 17:30:19 [INFO ] [restartedMain] c.t.d.d.HisApplication - Started HisApplication in 7.75 seconds (JVM running for 8.77)

@@ -1,0 +1,31 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.IndexController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/index.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/index.js" th:remove="all"> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/index.css}"> 
+    <title>title</title> 
+    <base th:href="@{/}"> 
+  </head> 
+  <body> 
+    <div id="app" style="height:100%;width:100%"> 
+      <aty-region-layout height="100%"> 
+        <aty-region-north>HIS</aty-region-north> 
+        <aty-region-center> 
+          <aty-tabs> 
+            <aty-tabpane style="min-height: 85vh;" src="/mzysgzz/mzys" label="门诊医生工作站"></aty-tabpane> 
+          </aty-tabs> 
+        </aty-region-center>   
+      </aty-region-layout> 
+    </div> 
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
+    <script type="text/javascript" aty:import></script> 
+    <script type="text/javascript" th:src="@{/js/index.js}"></script>  
+  </body>
+</html>

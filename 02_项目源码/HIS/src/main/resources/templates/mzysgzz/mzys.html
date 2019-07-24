@@ -1,0 +1,67 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.mzysgzz.MzysController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/mzysgzz/mzys.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/mzysgzz/mzys.js" th:remove="all"> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <meta name="description" content=""> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/mzysgzz/mzys.css}"> 
+    <title>title</title> 
+    <base th:href="@{/}"> 
+  </head> 
+  <body> 
+    <div id="app" style="height:100%;"> 
+      <aty-region-layout> 
+        <aty-region-west :width="400"> 
+          <aty-panel> 
+            <aty-row> 
+              <aty-col> 
+                <aty-title text="患者选择" level="4"></aty-title> 
+              </aty-col> 
+              <aty-col> 
+                <aty-icon type="refresh" size="20" color="#409EFF"></aty-icon> 
+              </aty-col> 
+            </aty-row> 
+            <aty-input style="width:400px;"> 
+              <aty-text slot="prepend" text="患者名"></aty-text> 
+              <aty-button slot="append" text="搜索" icon="ios-search"></aty-button> 
+            </aty-input> 
+          </aty-panel> 
+          <aty-panel> 
+            <aty-tabs type="card"> 
+              <aty-tabpane name="p1" label="本人"></aty-tabpane> 
+              <aty-tabpane name="p2" label="科室"></aty-tabpane> 
+            </aty-tabs> 
+          </aty-panel> 
+        </aty-region-west> 
+        <aty-region-center> 
+          <aty-region-layout :border="false"> 
+            <aty-region-north :height="40" :border="false"> 
+              <aty-button text="隐藏患者栏" type="primary"></aty-button> 
+            </aty-region-north> 
+            <aty-region-center>
+              <aty-tabs type="card">
+                <aty-tabpane label="病例首页"></aty-tabpane>
+                <aty-tabpane label="检查申请"></aty-tabpane>
+                <aty-tabpane label="检验申请"></aty-tabpane>
+                <aty-tabpane label="门诊确诊"></aty-tabpane>
+                <aty-tabpane label="处置申请"></aty-tabpane>
+                <aty-tabpane label="成药处方"></aty-tabpane>
+                <aty-tabpane label="草药处方"></aty-tabpane>
+                <aty-tabpane label="费用查询"></aty-tabpane>
+              </aty-tabs>
+            </aty-region-center> 
+          </aty-region-layout> 
+        </aty-region-center> 
+      </aty-region-layout> 
+    </div> 
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
+    <script type="text/javascript" aty:import></script> 
+    <script type="text/javascript" th:src="@{/js/mzysgzz/mzys.js}"></script>  
+  </body>
+</html>
