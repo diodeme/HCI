@@ -46,17 +46,7 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- log4jdbc -->
-		<dependency>
-			<groupId>com.thunisoft</groupId>
-			<artifactId>thunisoft-log4jdbc-log4j2</artifactId>
-			<version>1.17.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.thunisoft</groupId>
-			<artifactId>thunisoft-logback</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
