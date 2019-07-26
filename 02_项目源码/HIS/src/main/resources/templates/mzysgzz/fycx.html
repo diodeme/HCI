@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.mzysgzz.FycxController.java" th:remove="all"> 
+    <meta type="aty-meta" name="cssLocation" content="css/mzysgzz/fycx.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/mzysgzz/fycx.js" th:remove="all"> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <meta name="description" content=""> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/mzysgzz/fycx.css}"> 
+    <title>title</title> 
+    <base th:href="@{/}"> 
+  </head> 
+  <body> 
+    <div id="app">  
+      <aty-panel width="50%">
+        <aty-form> 
+          <aty-input label="请输入患者姓名或者病例号" icon="search" :label-width="200"></aty-input> 
+        </aty-form>
+      </aty-panel>
+      <aty-card width="100%" height="500px"> 
+        <aty-card-head text="该患者费用为："></aty-card-head> 
+        <aty-table> 
+          <aty-table-column label="项目名称"></aty-table-column> 
+          <aty-table-column label="单价"></aty-table-column> 
+          <aty-table-column label="数量"></aty-table-column> 
+        </aty-table> 
+      </aty-card> 
+      <aty-button text="刷新"></aty-button> 
+    </div> 
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
+    <script type="text/javascript" aty:import></script> 
+    <script type="text/javascript" th:src="@{/js/mzysgzz/fycx.js}"></script>  
+  </body>
+</html>
