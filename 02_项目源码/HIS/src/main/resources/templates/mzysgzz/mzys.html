@@ -16,7 +16,7 @@
   <body> 
     <div id="app" style="height:100%;"> 
       <aty-region-layout> 
-        <aty-region-west :width="400"> 
+        <aty-region-west :width="400"  can-slider collapse> 
           <aty-panel> 
             <aty-row> 
               <aty-col> 
@@ -41,18 +41,18 @@
         <aty-region-center> 
           <aty-region-layout :border="false"> 
             <aty-region-north :height="40" :border="false"> 
-              <aty-button text="隐藏患者栏" type="primary"></aty-button> 
+            
             </aty-region-north> 
             <aty-region-center> 
               <aty-tabs type="card"> 
                 <aty-tabpane label="病例首页" src="/mzysgzz/blsy" style="min-height: 85vh;"></aty-tabpane> 
                 <aty-tabpane label="检查申请" src="/mzysgzz/jcsq" style="min-height: 85vh;"></aty-tabpane> 
                 <aty-tabpane label="检验申请" src="/mzysgzz/jysq" style="min-height: 85vh;"></aty-tabpane> 
-                <aty-tabpane label="门诊确诊"></aty-tabpane> 
-                <aty-tabpane label="处置申请"></aty-tabpane> 
+                <aty-tabpane label="门诊确诊" src="/mzysgzz/mzqz" style="min-height: 85vh;"></aty-tabpane> 
+                <aty-tabpane label="处置申请" src="/mzysgzz/czsq" style="min-height: 85vh;"></aty-tabpane> 
                 <aty-tabpane label="成药处方" src="/mzysgzz/cycf" style="min-height: 85vh;"></aty-tabpane> 
-                <aty-tabpane label="草药处方"></aty-tabpane> 
-                <aty-tabpane label="费用查询"></aty-tabpane> 
+                <aty-tabpane label="草药处方" src="/mzysgzz/caoycf" style="min-height: 85vh;"></aty-tabpane> 
+                <aty-tabpane label="费用查询" src="/mzysgzz/fycx" style="min-height: 85vh;"></aty-tabpane> 
               </aty-tabs> 
             </aty-region-center> 
           </aty-region-layout> 
