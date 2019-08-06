@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
-  <head>
-    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.mzysgzz.CaoycfController.java" th:remove="all">
+  <head> 
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.mzysgzz.CaoycfController.java" th:remove="all"> 
     <meta type="aty-meta" name="cssLocation" content="css/mzysgzz/caoycf.css" th:remove="all"> 
-    <meta type="aty-meta" name="jsLocation" content="js/mzysgzz/caoycf.js" th:remove="all">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="description" content="">
-    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
-    <link rel="stylesheet" aty:import>
-    <link rel="stylesheet" th:href="@{/css/mzysgzz/caoycf.css}" />
-    <title>title</title>
-    <base th:href="@{/}" />
-  </head>
-  <body>
+    <meta type="aty-meta" name="jsLocation" content="js/mzysgzz/caoycf.js" th:remove="all"> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+    <meta name="description" content=""> 
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}"> 
+    <link rel="stylesheet" aty:import> 
+    <link rel="stylesheet" th:href="@{/css/mzysgzz/caoycf.css}"> 
+    <title>title</title> 
+    <base th:href="@{/}"> 
+  </head> 
+  <body> 
     <div id="app"> 
       <aty-region-layout> 
         <aty-region-center> 
@@ -21,79 +21,81 @@
           <aty-row type="flex" justify="center"> 
             <aty-col span="2"> 
               <aty-button icon="android-add">
-                增方
+                 增方 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="android-remove">
-                删方
+                 删方 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="android-done">
-                开立
+                 开立 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="android-delete">
-                作废
+                 作废 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="refresh">
-                刷新
+                 刷新 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="android-add">
-                增药
+                 增药 
               </aty-button> 
             </aty-col> 
             <aty-col span="2"> 
               <aty-button icon="android-remove">
-                删药
+                 删药 
               </aty-button> 
             </aty-col> 
           </aty-row> 
-          <aty-region-layout>
-            <aty-region-west :width="350">
-              <aty-card height="400px" width="300px">
-                <aty-card-head text="门诊处方"></aty-card-head>
-                <aty-table>
-                  <aty-table-column type="index"></aty-table-column>
-                  <aty-table-column label="名称"></aty-table-column>
-                  <aty-table-column label="状态"></aty-table-column>
-                </aty-table>
-              </aty-card>
-            </aty-region-west>
-            <aty-region-center>
-              <aty-text text="本项目金额合计"></aty-text>
-              <aty-table height="500">
-                <aty-table-column type="selection"></aty-table-column>
-                <aty-table-column label="药品名称"></aty-table-column>
-                <aty-table-column label="规格"></aty-table-column>
-                <aty-table-column label="单价"></aty-table-column>
-                <aty-table-column label="用法"></aty-table-column>
-                <aty-table-column label="用量"></aty-table-column>
-                <aty-table-column label="频次"></aty-table-column>
-                <aty-table-column label="数量"></aty-table-column>
-              </aty-table>
-            </aty-region-center>
-          </aty-region-layout>
+          <aty-region-layout> 
+            <aty-region-west :width="350"> 
+              <aty-card height="400px" width="300px"> 
+                <aty-card-head text="门诊处方"></aty-card-head> 
+                <aty-table> 
+                  <aty-table-column type="index"></aty-table-column> 
+                  <aty-table-column label="名称"></aty-table-column> 
+                  <aty-table-column label="状态"></aty-table-column> 
+                </aty-table> 
+              </aty-card> 
+            </aty-region-west> 
+            <aty-region-center> 
+              <aty-text text="本项目金额合计"></aty-text> 
+              <aty-table height="385"> 
+                <aty-table-column type="selection"></aty-table-column> 
+                <aty-table-column label="药品名称"></aty-table-column> 
+                <aty-table-column label="规格"></aty-table-column> 
+                <aty-table-column label="单价"></aty-table-column> 
+                <aty-table-column label="用法"></aty-table-column> 
+                <aty-table-column label="用量"></aty-table-column> 
+                <aty-table-column label="频次"></aty-table-column> 
+                <aty-table-column label="数量"></aty-table-column> 
+              </aty-table> 
+            </aty-region-center> 
+          </aty-region-layout> 
         </aty-region-center> 
-        <aty-region-south>
-          <aty-menu mode="horizontal">
-            <aty-menu-item code="atymenuitem24ea9eefab03c2646f41d06a42a7497f" text="处方模板"></aty-menu-item>
-            <aty-menu-item code="atymenuitem6e584a496bc764c4ca2b5ebc21f47dd2" text="常用药品"></aty-menu-item>
-            <aty-menu-item code="atymenuitem6f0dd4f66c56d21b352f3cd77d212856" text="建议方案"></aty-menu-item>
-            <aty-menu-item code="atymenuitem44df264a9b45d79d31ca6f447fb0a5ad" text="历史处方"></aty-menu-item>
-          </aty-menu>
+        <aty-region-south :height="200"> 
+          <aty-panel width="100%"> 
+            <aty-tabs> 
+              <aty-tabpane label="处方模板"></aty-tabpane> 
+              <aty-tabpane label="常用药品"></aty-tabpane> 
+              <aty-tabpane label="建议方案"></aty-tabpane> 
+              <aty-tabpane label="历史处方"></aty-tabpane> 
+            </aty-tabs> 
+          </aty-panel> 
         </aty-region-south> 
       </aty-region-layout> 
     </div> 
+    <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
+    <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
+    <script type="text/javascript" aty:import></script> 
+    <script type="text/javascript" th:src="@{/js/mzysgzz/caoycf.js}"></script>  
   </body>
-  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
-  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
-  <script type="text/javascript" aty:import></script>
-  <script type="text/javascript" th:src="@{/js/mzysgzz/caoycf.js}"></script>
 </html>
