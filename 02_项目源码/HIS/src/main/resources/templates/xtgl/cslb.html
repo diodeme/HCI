@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.xtgl.CslbControllerR.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/xtgl/cslbR.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/xtgl/cslbR.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/xtgl/cslbR.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  </head>
+  <body>
+    <div id="app">
+      <aty-region-layout>
+        <aty-region-north :height="50">
+
+          <aty-input style="width:400px;" placeholder="请输入常数项编号或名称">
+          </aty-input>
+          <aty-button text="查询常数"></aty-button>
+          <aty-button text="新增常数"></aty-button>
+        </aty-region-north>
+        <aty-region-center>
+          <aty-table>
+            <aty-table-column label="常数项编号"></aty-table-column>
+            <aty-table-column label="常数项名称"></aty-table-column>
+            <aty-table-column label="常数项类别"></aty-table-column>
+            <aty-table-column label="操作">
+              <aty-button text="编辑"></aty-button>
+              <aty-button text="删除"></aty-button>
+            </aty-table-column>
+          </aty-table>
+        </aty-region-center>
+      </aty-region-layout>
+    </div>
+  </body>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/xtgl/cslbR.js}"></script>
+</html>

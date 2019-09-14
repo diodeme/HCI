@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.xtgl.YspbController.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/xtgl/yspb.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/xtgl/yspb.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/xtgl/yspb.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  </head>
+  <body>
+    <div id="app">
+      <aty-region-layout>
+        <aty-region-north :height="50">
+
+          <aty-row>
+            <aty-col>
+              <aty-input style="width:400px;" placeholder="请输入医生名称">
+              </aty-input>
+            </aty-col>
+            <aty-col>
+              <aty-button text="查询"></aty-button>
+            </aty-col>
+            <aty-col></aty-col>
+            <aty-col>
+              <aty-button text="新增排班规则"></aty-button>
+              <aty-button text="生成排班列表"></aty-button>
+            </aty-col>
+          </aty-row>
+
+        </aty-region-north>
+        <aty-region-center>
+          <aty-table>
+            <aty-table-column label="医生名称" width="180"></aty-table-column>
+            <aty-table-column  label="一上">
+            </aty-table-column>
+            <aty-table-column label="一下"></aty-table-column>s
+            <aty-table-column label="二上"></aty-table-column>
+            <aty-table-column label="二下"></aty-table-column>
+            <aty-table-column label="三上"></aty-table-column>
+            <aty-table-column label="三下"></aty-table-column>
+            <aty-table-column label="四上"></aty-table-column>
+            <aty-table-column label="四下"></aty-table-column>
+            <aty-table-column label="五上"></aty-table-column>
+            <aty-table-column label="五下"></aty-table-column>
+            <aty-table-column label="六上"></aty-table-column>
+            <aty-table-column label="六下"></aty-table-column>
+            <aty-table-column label="七上"></aty-table-column>
+            <aty-table-column label="七下"></aty-table-column>
+          </aty-table>
+        </aty-region-center>
+      </aty-region-layout>
+    </div>
+  </body>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/xtgl/yspb.js}"></script>
+</html>

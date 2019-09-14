@@ -13,16 +13,28 @@
     <base th:href="@{/}"> 
   </head> 
   <body> 
-    <div id="app" style="height:100%;width:100%"> 
-      <aty-region-layout height="100%"> 
-        <aty-region-north>HIS</aty-region-north> 
-        <aty-region-center> 
-          <aty-tabs> 
-            <aty-tabpane style="min-height: 85vh;" src="/mzysgzz/mzys" label="门诊医生工作站"></aty-tabpane> 
-          </aty-tabs> 
-        </aty-region-center>   
-      </aty-region-layout> 
-    </div> 
+    <div id="app" style="height:100%;width:100%">
+      <div class="index">
+        <aty-button @click="xtglopen" class="buttonstyle">
+          <aty-icon type="android-settings"></aty-icon>
+          <aty-text text="系统管理"></aty-text>
+        </aty-button>
+        <aty-button @click="cwglopen" class="buttonstyle">
+          <aty-icon type="social-yen"></aty-icon>
+          <aty-text text="财务管理"></aty-text>
+        </aty-button>
+        <aty-button @click="yjopen" class="buttonstyle">
+          <aty-icon type="ios-flask-outline"></aty-icon>
+          <aty-text text="医技医生工作站"></aty-text>
+        </aty-button>
+        <aty-button @click="mzopen" class="buttonstyle">
+          <aty-icon type="ios-medkit"></aty-icon>
+          <aty-text text="门诊医生工作站"></aty-text>
+        </aty-button>
+      </div>
+
+
+    </div>
     <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script> 
     <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script> 
     <script type="text/javascript" aty:import></script> 
