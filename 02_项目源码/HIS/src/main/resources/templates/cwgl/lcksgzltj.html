@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.cwgl.LcksgzltjController.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/cwgl/lcksgzltj.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/cwgl/lcksgzltj.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/cwgl/lcksgzltj.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  <style>
+    body {
+
+      padding: 0;
+
+      margin: 0;
+
+      background-color: #fff;
+
+    }
+
+    .contanir{
+
+      height: 300px;
+
+      width: 400px;
+
+      position: relative;
+
+    }
+
+    .red {
+
+      position:absolute;
+
+      background-color: #f00;
+
+      height: 30%;
+
+      width: 10%;
+
+      left: 0;
+
+      top:210px;
+
+      margin-right: 20px;
+
+    }
+
+    .gray {
+
+      background-color: #ddd;
+
+      position:absolute;
+
+      left: 50px;
+
+      top: 60px;
+
+      height: 80%;
+
+      width: 10%;
+
+      margin-right: 20px;
+
+    }
+
+    .green{
+
+      position:absolute;
+
+      left: 100px;
+
+      top: 90px;
+
+      background-color: #0fd;
+
+      height: 70%;
+
+      width: 10%;
+
+      margin-right: 20px;
+
+    }
+
+    .yellow{
+
+      position:absolute;
+
+      left: 150px;
+
+      top: 120px;
+
+      background-color: #ff0;
+
+      height: 60%;
+
+      width: 10%;
+
+      margin-right: 20px;
+
+    }
+
+    .black{
+
+      position:absolute;
+
+      left: 200px;
+
+      top: 30px;
+
+      background-color: #234;
+
+      height: 90%;
+
+      width: 10%;
+
+      margin-right: 20px;
+
+    }
+  </style>
+  </head>
+  <body>
+    <div id="app">
+
+      <aty-panel>
+        <aty-row>
+          <aty-col span="1.2">
+            统计时间从
+          </aty-col>
+          <aty-col span="3.5">
+            <aty-date-picker style="width: 200px" placeholder="选择日期和时间" type="datetime"></aty-date-picker>
+          </aty-col>
+          <aty-col span="0.7">
+            到
+          </aty-col>
+          <aty-col span="3.5">
+            <aty-date-picker style="width: 200px" placeholder="选择日期和时间" type="datetime"></aty-date-picker>
+          </aty-col>
+          <aty-col span="12">
+            <aty-button text="查询"></aty-button>
+          </aty-col>
+          <aty-col span="1.2">
+            欢迎您xxx，编号：xxx
+          </aty-col>
+        </aty-row>
+      </aty-panel>
+      <aty-panel>
+        <aty-row>
+          <aty-text style="position: center" span="10">
+            临床科室工作量统计
+          </aty-text>
+          <aty-col span="10">
+            <aty-icon type="android-archive" style="position: center" size="20"></aty-icon>
+          </aty-col>
+        </aty-row>
+      </aty-panel>
+      <aty-panel>
+        <aty-table border >
+          <aty-table-column prop="name" label="科室名称" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="看诊人次" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="发票数量" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="西药费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="中药费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="挂号费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="诊查费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="检查费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="检验费" sortable="custom"></aty-table-column>
+          <aty-table-column prop="num" label="治疗费" sortable="custom"></aty-table-column>
+        </aty-table>
+      </aty-panel>
+      <aty-panel>
+        <aty-row>
+          <aty-text style="position: center" span="10">
+            临床科室工作量统计
+          </aty-text>
+          <aty-col span="10">
+            <aty-icon type="android-archive" style="position: center" size="0"></aty-icon>
+          </aty-col>
+        </aty-row>
+      </aty-panel>
+      <div class="contanir" style="margin: auto">
+        <div class="red"></div>
+        <div class="gray"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="black"></div>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/cwgl/lcksgzltj.js}"></script>
+</html>

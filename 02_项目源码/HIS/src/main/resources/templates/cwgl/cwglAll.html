@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.cwgl.CwglAllController.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/cwgl/cwglAll.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/cwgl/cwglAll.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/cwgl/cwglAll.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  </head>
+  <body>
+    <div id="app">
+      <aty-tabs >
+        <aty-tabpane src="cwgl/fykmgl" label="费用科目管理"></aty-tabpane>
+        <aty-tabpane src="cwgl/mzrjhd" label="门诊日结核对"></aty-tabpane>
+        <aty-tabpane src="cwgl/yzksgzltj" label="门诊科室工作量统计"></aty-tabpane>
+        <aty-tabpane src="cwgl/mzysgzl" label="门诊医生工作量统计"></aty-tabpane>
+
+      </aty-tabs>
+
+    </div>
+  </body>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/cwgl/cwglAll.js}"></script>
+</html>

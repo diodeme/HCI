@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.yjys.HzczController.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/yjys/hzcz.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/yjys/hzcz.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/yjys/hzcz.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  </head>
+  <body>
+  <div id="app" style="height:100%;">
+    <aty-region-layout>
+      <aty-region-center :width="400"  can-slider collapse>
+        <aty-panel>
+          <aty-input style="width:400px;">
+            <aty-button slot="append" text="查询患者" icon="ios-search"></aty-button>
+            <aty-button slot="append" text="结果录入" icon="ios-search"></aty-button>
+          </aty-input>
+          <aty-text style="right: auto" >欢迎您xxxx，编号：xxxx</aty-text>
+        </aty-panel>
+        <aty-panel>
+          <aty-table border >
+            <aty-table-column type="selection"></aty-table-column>
+            <aty-table-column label="患者编号" ></aty-table-column>
+            <aty-table-column label="患者名称" ></aty-table-column>
+            <aty-table-column label="缴费状态" ></aty-table-column>
+            <aty-table-column label="操作">
+              <template slot-scope="props">
+                <aty-link text="查询" ></aty-link>
+                <aty-link text="执行确认" ></aty-link>
+                <aty-link text="取消确认" ></aty-link>
+              </template>
+            </aty-table-column>
+          </aty-table>
+          <aty-pagination :total="100" show-sizer></aty-pagination>
+        </aty-panel>
+
+      </aty-region-center>
+
+    </aty-region-layout>
+  </div>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/mzysgzz/mzys.js}"></script>
+  </body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:aty="http://www.thunisoft.com">
+  <head>
+    <meta type="aty-meta" name="javaLocation" content="com.thunisoft.demo.demo.controller.cwgl.MzrjhdController.java" th:remove="all">
+    <meta type="aty-meta" name="cssLocation" content="css/cwgl/mzrjhd.css" th:remove="all"> 
+    <meta type="aty-meta" name="jsLocation" content="js/cwgl/mzrjhd.js" th:remove="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" th:href="@{/webjars/artery/artery-ui.css}" />
+    <link rel="stylesheet" aty:import>
+    <link rel="stylesheet" th:href="@{/css/cwgl/mzrjhd.css}" />
+    <title>title</title>
+    <base th:href="@{/}" />
+  </head>
+  <body>
+    <div id="app">
+      <aty-panel>
+        <aty-row>
+          <aty-col span="1.2">
+            收款员
+          </aty-col>
+          <aty-col span="1.2">
+            <aty-select style="width:100px" ></aty-select>
+          </aty-col>
+          <aty-col span="1.2">
+            统计日期
+          </aty-col>
+          <aty-col span="3.5">
+            <aty-date-picker style="width: 100px" placeholder="选择日期和时间" type="datetime"></aty-date-picker>
+          </aty-col>
+          <aty-col span="0.7">
+            至
+          </aty-col>
+          <aty-col span="4">
+            <aty-date-picker style="width: 100px" placeholder="选择日期和时间" type="datetime"></aty-date-picker>
+          </aty-col>
+          <aty-col span="2">
+            <aty-button text="清空"></aty-button>
+          </aty-col>
+          <aty-col span="10">
+            <aty-button text="核对通过"></aty-button>
+          </aty-col>
+          <aty-col span="1.2">
+            欢迎您xxx，编号：xxx
+          </aty-col>
+        </aty-row>
+
+      </aty-panel>
+      <br>
+
+      <aty-panel>
+        <aty-row>
+          <aty-text style="position: center "span="10">
+            XXXX门诊收费日结单
+          </aty-text>
+          <aty-col span="10">
+            <aty-icon type="android-archive" style="position: center" size="0"></aty-icon>
+          </aty-col>
+        </aty-row>
+
+
+      </aty-panel>
+      <br>
+        <table border  width="90%" height="600" style="margin: auto" >
+          <tr>
+            <td colspan="2">日结时间范围</td>
+            <td colspan="12">2019-08-22 13:15:20 -- 2020-08-22 13:15:20 </td>
+          </tr>
+          <tr>
+            <td colspan="2">制表人</td>
+            <td colspan="2">phissk</td>
+            <td colspan="2">收款员</td>
+            <td colspan="4">phissk</td>
+            <td colspan="2">制表日期</td>
+            <td colspan="2">2019-08-22 13:15:20</td>
+          </tr>
+          <tr>
+            <td colspan="2">作废发票号</td>
+            <td colspan="9">2019156164561265453</td>
+            <td colspan="3">共计16张</td>
+          </tr>
+          <tr>
+            <td colspan="2">重打发票号</td>
+            <td colspan="9">2019156164561265453</td>
+            <td colspan="3">共计17张</td>
+          </tr>
+          <tr>
+            <td colspan="2">起始发票号</td>
+            <td colspan="9">2019156164561265453</td>
+            <td colspan="3">共计15张</td>
+          </tr>
+          <tr>
+            <td colspan="2">发票汇总</td>
+            <td colspan="1">总金额</td>
+            <td colspan="1">666</td>
+            <td colspan="1">自费金额</td>
+            <td colspan="1">666</td>
+            <td colspan="1">自付金额</td>
+            <td colspan="1">0</td>
+            <td colspan="1">报销金额</td>
+            <td colspan="1">0</td>
+            <td colspan="1">优惠金额</td>
+            <td colspan="1">0</td>
+            <td colspan="1">四舍五入金额</td>
+            <td colspan="1">0</td>
+          </tr>
+          <tr>
+            <td colspan="2">药费</td>
+            <td colspan="1">西药费</td>
+            <td colspan="1">666</td>
+            <td colspan="1">中草药费</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">共计</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">测试用</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">共计</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">医疗费用</td>
+            <td colspan="1">挂号费</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">共计</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">其他费用</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">共计</td>
+            <td colspan="1">666</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">总业务收入</td>
+            <td colspan="1">现金</td>
+            <td colspan="1">0</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">共计</td>
+            <td colspan="1">大写</td>
+            <td colspan="6">六十六元整</td>
+            <td colspan="1">小写</td>
+            <td colspan="1">66</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+
+          </tr>
+        </table>
+
+    </div>
+  </body>
+  <script type="text/javascript" th:src="@{/webjars/vue/vue.min.js}"></script>
+  <script type="text/javascript" th:src="@{/webjars/artery/artery-ui.min.js}"></script>
+  <script type="text/javascript" aty:import></script>
+  <script type="text/javascript" th:src="@{/js/cwgl/mzrjhd.js}"></script>
+</html>
